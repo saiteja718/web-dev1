@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.company-team{
+    width: 100%;
+}
+
+                        
+.name{
+    text-align: center;
+    margin-top: 40px;
+    color: darkorchid;
+    font-size: 36px;
+}
+.p1{
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+    
+    margin-top: 40px;
+
+}
+.heading{
+    text-align: center;
+    width: 100%;
+}
+.our-team h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+}
+.our-team{
+    width: 80%;
+    margin: auto;
+}
+.team1,.team2, .team3 h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.our-team .team1,.team2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    grid-gap: 50px;
+}
+.our-team .team1 .t-1,.t-2 {
+    
+    width: 100%;
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.our-team .team3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 40px;
+    grid-gap: 50px;
+}
+
+.team1,  .t-1 img{
+    border-radius: 50%;
+}
+.team2,  .t-2 img{
+    border-radius: 50%;
+}
